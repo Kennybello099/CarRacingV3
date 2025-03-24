@@ -5,7 +5,7 @@ from stable_baselines3.common.evaluation import evaluate_policy
 import os
 
 class CarRacingTrainer:
-    def __init__(self, env_name="CarRacing-v3", model_path="Training/Saved Models/PPO_model", 
+    def __init__(self, env_name="CarRacing-v3", model_path="CarRacingV3/Training/Saved Models/PPO_model", 
                  total_timesteps=10000, timesteps_per_iteration=2000, 
                  initial_n_steps=1024, learning_rate=1e-4):
         """Initialize the CarRacingTrainer with environment and training parameters."""
